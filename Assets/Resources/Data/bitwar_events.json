@@ -1,0 +1,4504 @@
+{
+  "Events": [
+    {
+      "Id": "EVT_0001",
+      "Title": "Covert airfield",
+      "Description": "Event 1: The artillery battery sends a false signal. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": -3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0002",
+      "Title": "Night supply convoy",
+      "Description": "Event 2: The refugee column sends a false signal. Territory lines stabilize for now.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0003",
+      "Title": "Coordinated medical camp",
+      "Description": "Event 3: The enemy outpost is under heavy fire. Operational tempo slows.",
+      "Category": "Intelligence",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0004",
+      "Title": "Frontline bridge",
+      "Description": "Event 4: The drone squad reports suspicious activity. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": -3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0005",
+      "Title": "Decisive enemy outpost",
+      "Description": "Event 5: The bridge reveals a hidden route. Command confidence rises.",
+      "Category": "Engineering",
+      "MoraleDelta": 3,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0006",
+      "Title": "Frontline drone squad",
+      "Description": "Event 6: The medical camp is under heavy fire. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": 1,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0007",
+      "Title": "Urgent radar station",
+      "Description": "Event 7: The drone squad is running low on fuel. Morale shifts on the frontline.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0008",
+      "Title": "Frontline refugee column",
+      "Description": "Event 8: The enemy outpost reports suspicious activity. Territory lines stabilize for now.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 1,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0009",
+      "Title": "Urgent radar station",
+      "Description": "Event 9: The refugee column requests extraction. Morale shifts on the frontline.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0010",
+      "Title": "Covert medical camp",
+      "Description": "Event 10: The bridge is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": 2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0011",
+      "Title": "Covert drone squad",
+      "Description": "Event 11: The enemy outpost sends a false signal. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": 1,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0012",
+      "Title": "Coordinated artillery battery",
+      "Description": "Event 12: The communications relay is running low on fuel. Supplies are stretched thin.",
+      "Category": "Morale",
+      "MoraleDelta": 2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0013",
+      "Title": "Rapid bridge",
+      "Description": "Event 13: The supply convoy offers an opportunity. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0014",
+      "Title": "Urgent supply convoy",
+      "Description": "Event 14: The bridge needs immediate support. Supplies are stretched thin.",
+      "Category": "Logistics",
+      "MoraleDelta": -1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0015",
+      "Title": "Urgent supply convoy",
+      "Description": "Event 15: The supply convoy sends a false signal. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": -1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0016",
+      "Title": "High-Risk artillery battery",
+      "Description": "Event 16: The drone squad sends a false signal. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0017",
+      "Title": "Urgent enemy outpost",
+      "Description": "Event 17: The communications relay has been compromised. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0018",
+      "Title": "High-Risk bridge",
+      "Description": "Event 18: The bridge requests extraction. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": 3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0019",
+      "Title": "Targeted supply convoy",
+      "Description": "Event 19: The drone squad sends a false signal. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0020",
+      "Title": "Covert bridge",
+      "Description": "Event 20: The supply convoy offers an opportunity. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": -2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0021",
+      "Title": "Decisive airfield",
+      "Description": "Event 21: The communications relay reveals a hidden route. Supplies are stretched thin.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0022",
+      "Title": "Strategic refugee column",
+      "Description": "Event 22: The airfield is under heavy fire. Morale shifts on the frontline.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0023",
+      "Title": "Targeted medical camp",
+      "Description": "Event 23: The supply convoy reveals a hidden route. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0024",
+      "Title": "Frontline medical camp",
+      "Description": "Event 24: The airfield is running low on fuel. Command confidence rises.",
+      "Category": "Assault",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0025",
+      "Title": "Strategic bridge",
+      "Description": "Event 25: The radar station reports suspicious activity. Morale shifts on the frontline.",
+      "Category": "Engineering",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0026",
+      "Title": "High-Risk communications relay",
+      "Description": "Event 26: The enemy outpost offers an opportunity. Operational tempo slows.",
+      "Category": "Cyber",
+      "MoraleDelta": 2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0027",
+      "Title": "Rapid medical camp",
+      "Description": "Event 27: The airfield offers an opportunity. Territory lines stabilize for now.",
+      "Category": "Morale",
+      "MoraleDelta": -2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0028",
+      "Title": "Rapid airfield",
+      "Description": "Event 28: The artillery battery sends a false signal. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0029",
+      "Title": "Frontline medical camp",
+      "Description": "Event 29: The airfield has been compromised. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": -2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0030",
+      "Title": "Rapid bridge",
+      "Description": "Event 30: The radar station needs immediate support. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0031",
+      "Title": "Decisive communications relay",
+      "Description": "Event 31: The drone squad has been compromised. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": -2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0032",
+      "Title": "Covert supply convoy",
+      "Description": "Event 32: The airfield sends a false signal. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": 2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0033",
+      "Title": "Urgent enemy outpost",
+      "Description": "Event 33: The drone squad has been compromised. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": -3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0034",
+      "Title": "Targeted enemy outpost",
+      "Description": "Event 34: The drone squad reveals a hidden route. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": 3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0035",
+      "Title": "Covert airfield",
+      "Description": "Event 35: The drone squad sends a false signal. Morale shifts on the frontline.",
+      "Category": "Cyber",
+      "MoraleDelta": -1,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0036",
+      "Title": "Frontline radar station",
+      "Description": "Event 36: The supply convoy sends a false signal. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": 0,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0037",
+      "Title": "High-Risk airfield",
+      "Description": "Event 37: The artillery battery requests extraction. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": -2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0038",
+      "Title": "Targeted medical camp",
+      "Description": "Event 38: The medical camp offers an opportunity. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0039",
+      "Title": "Decisive radar station",
+      "Description": "Event 39: The drone squad sends a false signal. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0040",
+      "Title": "Rapid medical camp",
+      "Description": "Event 40: The radar station is under heavy fire. Territory lines stabilize for now.",
+      "Category": "Morale",
+      "MoraleDelta": 3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0041",
+      "Title": "Covert drone squad",
+      "Description": "Event 41: The enemy outpost sends a false signal. Supplies are stretched thin.",
+      "Category": "Defense",
+      "MoraleDelta": 1,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0042",
+      "Title": "Targeted airfield",
+      "Description": "Event 42: The medical camp sends a false signal. Operational tempo slows.",
+      "Category": "Assault",
+      "MoraleDelta": -3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0043",
+      "Title": "Strategic enemy outpost",
+      "Description": "Event 43: The supply convoy is under heavy fire. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0044",
+      "Title": "Covert drone squad",
+      "Description": "Event 44: The refugee column has been compromised. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0045",
+      "Title": "High-Risk artillery battery",
+      "Description": "Event 45: The drone squad requests extraction. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": 0,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0046",
+      "Title": "Targeted airfield",
+      "Description": "Event 46: The communications relay is under heavy fire. Operational tempo slows.",
+      "Category": "Intelligence",
+      "MoraleDelta": -1,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0047",
+      "Title": "High-Risk refugee column",
+      "Description": "Event 47: The bridge is running low on fuel. Morale shifts on the frontline.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0048",
+      "Title": "Frontline airfield",
+      "Description": "Event 48: The communications relay requests extraction. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": -3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0049",
+      "Title": "Frontline communications relay",
+      "Description": "Event 49: The refugee column offers an opportunity. Supplies are stretched thin.",
+      "Category": "Logistics",
+      "MoraleDelta": -2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0050",
+      "Title": "High-Risk supply convoy",
+      "Description": "Event 50: The airfield reports suspicious activity. Morale shifts on the frontline.",
+      "Category": "Morale",
+      "MoraleDelta": -2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0051",
+      "Title": "Decisive radar station",
+      "Description": "Event 51: The airfield needs immediate support. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": -2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0052",
+      "Title": "Frontline supply convoy",
+      "Description": "Event 52: The supply convoy reports suspicious activity. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": -2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0053",
+      "Title": "Rapid drone squad",
+      "Description": "Event 53: The drone squad needs immediate support. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0054",
+      "Title": "Strategic medical camp",
+      "Description": "Event 54: The bridge has been compromised. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": 3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0055",
+      "Title": "Coordinated supply convoy",
+      "Description": "Event 55: The drone squad requests extraction. Supplies are stretched thin.",
+      "Category": "Medical",
+      "MoraleDelta": -1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0056",
+      "Title": "Rapid artillery battery",
+      "Description": "Event 56: The radar station has been compromised. Supplies are stretched thin.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0057",
+      "Title": "Frontline refugee column",
+      "Description": "Event 57: The medical camp sends a false signal. Morale shifts on the frontline.",
+      "Category": "Cyber",
+      "MoraleDelta": 0,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0058",
+      "Title": "High-Risk supply convoy",
+      "Description": "Event 58: The airfield offers an opportunity. Command confidence rises.",
+      "Category": "Defense",
+      "MoraleDelta": -3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0059",
+      "Title": "Frontline artillery battery",
+      "Description": "Event 59: The refugee column reports suspicious activity. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": -2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0060",
+      "Title": "Night airfield",
+      "Description": "Event 60: The drone squad has been compromised. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": 3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0061",
+      "Title": "Decisive communications relay",
+      "Description": "Event 61: The airfield sends a false signal. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": -2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0062",
+      "Title": "Coordinated airfield",
+      "Description": "Event 62: The bridge sends a false signal. Command confidence rises.",
+      "Category": "Defense",
+      "MoraleDelta": -2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0063",
+      "Title": "Decisive airfield",
+      "Description": "Event 63: The radar station is delaying the advance. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0064",
+      "Title": "Targeted airfield",
+      "Description": "Event 64: The drone squad has been compromised. Operational tempo slows.",
+      "Category": "Logistics",
+      "MoraleDelta": -2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0065",
+      "Title": "Decisive medical camp",
+      "Description": "Event 65: The communications relay offers an opportunity. Morale shifts on the frontline.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0066",
+      "Title": "Decisive refugee column",
+      "Description": "Event 66: The radar station is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0067",
+      "Title": "Targeted airfield",
+      "Description": "Event 67: The airfield reports suspicious activity. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": -3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0068",
+      "Title": "Coordinated communications relay",
+      "Description": "Event 68: The refugee column reports suspicious activity. Operational tempo slows.",
+      "Category": "Intelligence",
+      "MoraleDelta": 1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0069",
+      "Title": "Urgent airfield",
+      "Description": "Event 69: The artillery battery is delaying the advance. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": -2,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0070",
+      "Title": "Rapid enemy outpost",
+      "Description": "Event 70: The refugee column is running low on fuel. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": -2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0071",
+      "Title": "Night refugee column",
+      "Description": "Event 71: The radar station reveals a hidden route. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 2,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0072",
+      "Title": "Covert supply convoy",
+      "Description": "Event 72: The medical camp requests extraction. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": -1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0073",
+      "Title": "Frontline drone squad",
+      "Description": "Event 73: The bridge reveals a hidden route. Supplies are stretched thin.",
+      "Category": "Medical",
+      "MoraleDelta": -1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0074",
+      "Title": "Urgent medical camp",
+      "Description": "Event 74: The enemy outpost needs immediate support. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": -2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0075",
+      "Title": "Frontline radar station",
+      "Description": "Event 75: The drone squad is under heavy fire. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": 1,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0076",
+      "Title": "Rapid medical camp",
+      "Description": "Event 76: The supply convoy sends a false signal. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0077",
+      "Title": "Decisive enemy outpost",
+      "Description": "Event 77: The artillery battery requests extraction. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": -1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0078",
+      "Title": "Frontline medical camp",
+      "Description": "Event 78: The supply convoy is under heavy fire. Operational tempo slows.",
+      "Category": "Intelligence",
+      "MoraleDelta": 1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0079",
+      "Title": "Coordinated refugee column",
+      "Description": "Event 79: The drone squad reveals a hidden route. Command confidence rises.",
+      "Category": "Morale",
+      "MoraleDelta": -3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0080",
+      "Title": "Frontline communications relay",
+      "Description": "Event 80: The communications relay is running low on fuel. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": 2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0081",
+      "Title": "Covert drone squad",
+      "Description": "Event 81: The airfield offers an opportunity. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": -2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0082",
+      "Title": "Frontline bridge",
+      "Description": "Event 82: The communications relay reveals a hidden route. Supplies are stretched thin.",
+      "Category": "Morale",
+      "MoraleDelta": -3,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0083",
+      "Title": "Decisive enemy outpost",
+      "Description": "Event 83: The artillery battery reports suspicious activity. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0084",
+      "Title": "Urgent medical camp",
+      "Description": "Event 84: The drone squad is under heavy fire. Supplies are stretched thin.",
+      "Category": "Morale",
+      "MoraleDelta": 2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0085",
+      "Title": "Frontline artillery battery",
+      "Description": "Event 85: The artillery battery reports suspicious activity. Operational tempo slows.",
+      "Category": "Logistics",
+      "MoraleDelta": 1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0086",
+      "Title": "Night radar station",
+      "Description": "Event 86: The bridge reports suspicious activity. Operational tempo slows.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0087",
+      "Title": "Coordinated artillery battery",
+      "Description": "Event 87: The enemy outpost is running low on fuel. Territory lines stabilize for now.",
+      "Category": "Morale",
+      "MoraleDelta": 0,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0088",
+      "Title": "Rapid drone squad",
+      "Description": "Event 88: The communications relay offers an opportunity. Morale shifts on the frontline.",
+      "Category": "Morale",
+      "MoraleDelta": 2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0089",
+      "Title": "Targeted medical camp",
+      "Description": "Event 89: The airfield reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Cyber",
+      "MoraleDelta": 1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0090",
+      "Title": "Frontline drone squad",
+      "Description": "Event 90: The radar station sends a false signal. Supplies are stretched thin.",
+      "Category": "Morale",
+      "MoraleDelta": -3,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0091",
+      "Title": "Coordinated refugee column",
+      "Description": "Event 91: The artillery battery reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Diplomacy",
+      "MoraleDelta": -3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0092",
+      "Title": "Covert communications relay",
+      "Description": "Event 92: The refugee column offers an opportunity. Supplies are stretched thin.",
+      "Category": "Morale",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0093",
+      "Title": "Coordinated refugee column",
+      "Description": "Event 93: The drone squad is delaying the advance. Operational tempo slows.",
+      "Category": "Logistics",
+      "MoraleDelta": -1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0094",
+      "Title": "Coordinated enemy outpost",
+      "Description": "Event 94: The artillery battery is under heavy fire. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0095",
+      "Title": "Urgent artillery battery",
+      "Description": "Event 95: The communications relay reveals a hidden route. Command confidence rises.",
+      "Category": "Assault",
+      "MoraleDelta": -3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0096",
+      "Title": "Rapid refugee column",
+      "Description": "Event 96: The communications relay needs immediate support. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": -2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0097",
+      "Title": "Strategic airfield",
+      "Description": "Event 97: The supply convoy requests extraction. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0098",
+      "Title": "Urgent radar station",
+      "Description": "Event 98: The communications relay is under heavy fire. Morale shifts on the frontline.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0099",
+      "Title": "Urgent drone squad",
+      "Description": "Event 99: The bridge offers an opportunity. Operational tempo slows.",
+      "Category": "Morale",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0100",
+      "Title": "High-Risk radar station",
+      "Description": "Event 100: The supply convoy needs immediate support. Morale shifts on the frontline.",
+      "Category": "Assault",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0101",
+      "Title": "Covert supply convoy",
+      "Description": "Event 101: The bridge has been compromised. Supplies are stretched thin.",
+      "Category": "Morale",
+      "MoraleDelta": -3,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0102",
+      "Title": "Rapid medical camp",
+      "Description": "Event 102: The artillery battery needs immediate support. Supplies are stretched thin.",
+      "Category": "Recon",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0103",
+      "Title": "Strategic medical camp",
+      "Description": "Event 103: The drone squad sends a false signal. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": -1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0104",
+      "Title": "Night supply convoy",
+      "Description": "Event 104: The airfield needs immediate support. Supplies are stretched thin.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0105",
+      "Title": "Covert enemy outpost",
+      "Description": "Event 105: The airfield requests extraction. Operational tempo slows.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0106",
+      "Title": "High-Risk airfield",
+      "Description": "Event 106: The drone squad sends a false signal. Command confidence rises.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0107",
+      "Title": "Coordinated bridge",
+      "Description": "Event 107: The airfield is under heavy fire. Morale shifts on the frontline.",
+      "Category": "Cyber",
+      "MoraleDelta": 2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0108",
+      "Title": "High-Risk supply convoy",
+      "Description": "Event 108: The radar station has been compromised. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0109",
+      "Title": "High-Risk supply convoy",
+      "Description": "Event 109: The supply convoy is delaying the advance. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": -3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0110",
+      "Title": "Targeted medical camp",
+      "Description": "Event 110: The medical camp is delaying the advance. Command confidence rises.",
+      "Category": "Defense",
+      "MoraleDelta": 3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0111",
+      "Title": "Coordinated medical camp",
+      "Description": "Event 111: The bridge reveals a hidden route. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": -1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0112",
+      "Title": "High-Risk medical camp",
+      "Description": "Event 112: The communications relay reports suspicious activity. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": -1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0113",
+      "Title": "Strategic artillery battery",
+      "Description": "Event 113: The bridge reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Logistics",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0114",
+      "Title": "Frontline bridge",
+      "Description": "Event 114: The artillery battery offers an opportunity. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": -2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0115",
+      "Title": "Night supply convoy",
+      "Description": "Event 115: The drone squad has been compromised. Territory lines stabilize for now.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0116",
+      "Title": "Targeted airfield",
+      "Description": "Event 116: The medical camp reveals a hidden route. Command confidence rises.",
+      "Category": "Defense",
+      "MoraleDelta": 3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0117",
+      "Title": "Urgent supply convoy",
+      "Description": "Event 117: The communications relay needs immediate support. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0118",
+      "Title": "High-Risk communications relay",
+      "Description": "Event 118: The airfield has been compromised. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": -2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0119",
+      "Title": "Decisive drone squad",
+      "Description": "Event 119: The radar station requests extraction. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0120",
+      "Title": "Decisive refugee column",
+      "Description": "Event 120: The drone squad is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0121",
+      "Title": "Frontline artillery battery",
+      "Description": "Event 121: The bridge sends a false signal. Command confidence rises.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0122",
+      "Title": "Covert radar station",
+      "Description": "Event 122: The bridge offers an opportunity. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": -2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0123",
+      "Title": "Decisive enemy outpost",
+      "Description": "Event 123: The bridge is running low on fuel. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": -1,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0124",
+      "Title": "High-Risk communications relay",
+      "Description": "Event 124: The artillery battery is running low on fuel. Operational tempo slows.",
+      "Category": "Logistics",
+      "MoraleDelta": -1,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0125",
+      "Title": "Urgent supply convoy",
+      "Description": "Event 125: The drone squad is running low on fuel. Operational tempo slows.",
+      "Category": "Morale",
+      "MoraleDelta": 1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0126",
+      "Title": "Targeted radar station",
+      "Description": "Event 126: The supply convoy is running low on fuel. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": 0,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0127",
+      "Title": "Targeted artillery battery",
+      "Description": "Event 127: The communications relay is delaying the advance. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": 1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0128",
+      "Title": "Night enemy outpost",
+      "Description": "Event 128: The medical camp requests extraction. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": -2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0129",
+      "Title": "Night refugee column",
+      "Description": "Event 129: The bridge offers an opportunity. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": 1,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0130",
+      "Title": "Night drone squad",
+      "Description": "Event 130: The supply convoy has been compromised. Operational tempo slows.",
+      "Category": "Logistics",
+      "MoraleDelta": 2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0131",
+      "Title": "High-Risk refugee column",
+      "Description": "Event 131: The medical camp requests extraction. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0132",
+      "Title": "Targeted refugee column",
+      "Description": "Event 132: The enemy outpost is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": -2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0133",
+      "Title": "Covert medical camp",
+      "Description": "Event 133: The medical camp needs immediate support. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": -3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0134",
+      "Title": "Strategic supply convoy",
+      "Description": "Event 134: The bridge needs immediate support. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 0,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0135",
+      "Title": "Decisive drone squad",
+      "Description": "Event 135: The enemy outpost needs immediate support. Supplies are stretched thin.",
+      "Category": "Defense",
+      "MoraleDelta": -2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0136",
+      "Title": "Covert artillery battery",
+      "Description": "Event 136: The refugee column offers an opportunity. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0137",
+      "Title": "Frontline refugee column",
+      "Description": "Event 137: The enemy outpost is under heavy fire. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0138",
+      "Title": "Targeted medical camp",
+      "Description": "Event 138: The artillery battery needs immediate support. Morale shifts on the frontline.",
+      "Category": "Morale",
+      "MoraleDelta": -3,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0139",
+      "Title": "Strategic bridge",
+      "Description": "Event 139: The enemy outpost has been compromised. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0140",
+      "Title": "Frontline medical camp",
+      "Description": "Event 140: The radar station is under heavy fire. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": -1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0141",
+      "Title": "Rapid drone squad",
+      "Description": "Event 141: The communications relay is running low on fuel. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": -3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0142",
+      "Title": "High-Risk radar station",
+      "Description": "Event 142: The radar station is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": -3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0143",
+      "Title": "Frontline medical camp",
+      "Description": "Event 143: The artillery battery reveals a hidden route. Command confidence rises.",
+      "Category": "Engineering",
+      "MoraleDelta": 3,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0144",
+      "Title": "High-Risk drone squad",
+      "Description": "Event 144: The artillery battery sends a false signal. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": 1,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0145",
+      "Title": "Night radar station",
+      "Description": "Event 145: The bridge offers an opportunity. Command confidence rises.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0146",
+      "Title": "Decisive bridge",
+      "Description": "Event 146: The bridge sends a false signal. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0147",
+      "Title": "Targeted artillery battery",
+      "Description": "Event 147: The airfield has been compromised. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": -2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0148",
+      "Title": "High-Risk enemy outpost",
+      "Description": "Event 148: The enemy outpost is delaying the advance. Operational tempo slows.",
+      "Category": "Assault",
+      "MoraleDelta": -3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0149",
+      "Title": "Covert refugee column",
+      "Description": "Event 149: The medical camp is running low on fuel. Supplies are stretched thin.",
+      "Category": "Logistics",
+      "MoraleDelta": 2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0150",
+      "Title": "Night radar station",
+      "Description": "Event 150: The supply convoy offers an opportunity. Operational tempo slows.",
+      "Category": "Morale",
+      "MoraleDelta": 2,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0151",
+      "Title": "Urgent artillery battery",
+      "Description": "Event 151: The drone squad reports suspicious activity. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": 1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0152",
+      "Title": "Covert bridge",
+      "Description": "Event 152: The communications relay reports suspicious activity. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0153",
+      "Title": "Decisive medical camp",
+      "Description": "Event 153: The supply convoy sends a false signal. Morale shifts on the frontline.",
+      "Category": "Intelligence",
+      "MoraleDelta": -3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0154",
+      "Title": "High-Risk drone squad",
+      "Description": "Event 154: The drone squad offers an opportunity. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0155",
+      "Title": "Rapid communications relay",
+      "Description": "Event 155: The radar station reports suspicious activity. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": -3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0156",
+      "Title": "Rapid radar station",
+      "Description": "Event 156: The airfield reveals a hidden route. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": -2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0157",
+      "Title": "Targeted artillery battery",
+      "Description": "Event 157: The refugee column sends a false signal. Operational tempo slows.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0158",
+      "Title": "Targeted artillery battery",
+      "Description": "Event 158: The enemy outpost needs immediate support. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0159",
+      "Title": "Covert enemy outpost",
+      "Description": "Event 159: The communications relay requests extraction. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0160",
+      "Title": "Coordinated radar station",
+      "Description": "Event 160: The drone squad is delaying the advance. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0161",
+      "Title": "Strategic radar station",
+      "Description": "Event 161: The airfield reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 0,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0162",
+      "Title": "Targeted refugee column",
+      "Description": "Event 162: The supply convoy is under heavy fire. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0163",
+      "Title": "Night medical camp",
+      "Description": "Event 163: The medical camp is under heavy fire. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": 1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0164",
+      "Title": "Targeted bridge",
+      "Description": "Event 164: The medical camp sends a false signal. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": 1,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0165",
+      "Title": "Night supply convoy",
+      "Description": "Event 165: The refugee column needs immediate support. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": -3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0166",
+      "Title": "Strategic medical camp",
+      "Description": "Event 166: The communications relay sends a false signal. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0167",
+      "Title": "Urgent enemy outpost",
+      "Description": "Event 167: The drone squad offers an opportunity. Supplies are stretched thin.",
+      "Category": "Morale",
+      "MoraleDelta": -1,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0168",
+      "Title": "Decisive radar station",
+      "Description": "Event 168: The artillery battery requests extraction. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": -3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0169",
+      "Title": "Strategic communications relay",
+      "Description": "Event 169: The enemy outpost is running low on fuel. Morale shifts on the frontline.",
+      "Category": "Morale",
+      "MoraleDelta": -1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0170",
+      "Title": "Urgent artillery battery",
+      "Description": "Event 170: The bridge requests extraction. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": -2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0171",
+      "Title": "Targeted refugee column",
+      "Description": "Event 171: The medical camp requests extraction. Operational tempo slows.",
+      "Category": "Morale",
+      "MoraleDelta": -2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0172",
+      "Title": "Covert enemy outpost",
+      "Description": "Event 172: The medical camp offers an opportunity. Morale shifts on the frontline.",
+      "Category": "Assault",
+      "MoraleDelta": 3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0173",
+      "Title": "Targeted bridge",
+      "Description": "Event 173: The communications relay has been compromised. Morale shifts on the frontline.",
+      "Category": "Engineering",
+      "MoraleDelta": 1,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0174",
+      "Title": "Targeted medical camp",
+      "Description": "Event 174: The artillery battery requests extraction. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": -1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0175",
+      "Title": "Night airfield",
+      "Description": "Event 175: The supply convoy is running low on fuel. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": 0,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0176",
+      "Title": "Night medical camp",
+      "Description": "Event 176: The radar station is running low on fuel. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0177",
+      "Title": "Urgent communications relay",
+      "Description": "Event 177: The refugee column reports suspicious activity. Morale shifts on the frontline.",
+      "Category": "Cyber",
+      "MoraleDelta": 2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0178",
+      "Title": "Covert artillery battery",
+      "Description": "Event 178: The communications relay requests extraction. Command confidence rises.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0179",
+      "Title": "Targeted communications relay",
+      "Description": "Event 179: The medical camp is running low on fuel. Command confidence rises.",
+      "Category": "Morale",
+      "MoraleDelta": -1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0180",
+      "Title": "Rapid radar station",
+      "Description": "Event 180: The communications relay sends a false signal. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0181",
+      "Title": "Rapid communications relay",
+      "Description": "Event 181: The enemy outpost is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": -2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0182",
+      "Title": "Rapid communications relay",
+      "Description": "Event 182: The radar station requests extraction. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0183",
+      "Title": "Targeted bridge",
+      "Description": "Event 183: The drone squad requests extraction. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 0,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0184",
+      "Title": "Frontline supply convoy",
+      "Description": "Event 184: The medical camp needs immediate support. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": 2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0185",
+      "Title": "Coordinated medical camp",
+      "Description": "Event 185: The drone squad is running low on fuel. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": 3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0186",
+      "Title": "High-Risk enemy outpost",
+      "Description": "Event 186: The medical camp requests extraction. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": -2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0187",
+      "Title": "Strategic bridge",
+      "Description": "Event 187: The enemy outpost needs immediate support. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0188",
+      "Title": "Frontline medical camp",
+      "Description": "Event 188: The supply convoy has been compromised. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0189",
+      "Title": "Rapid drone squad",
+      "Description": "Event 189: The enemy outpost is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0190",
+      "Title": "Urgent airfield",
+      "Description": "Event 190: The communications relay needs immediate support. Territory lines stabilize for now.",
+      "Category": "Morale",
+      "MoraleDelta": 0,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0191",
+      "Title": "Urgent communications relay",
+      "Description": "Event 191: The enemy outpost needs immediate support. Morale shifts on the frontline.",
+      "Category": "Cyber",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0192",
+      "Title": "Strategic artillery battery",
+      "Description": "Event 192: The drone squad sends a false signal. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": -3,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0193",
+      "Title": "Coordinated supply convoy",
+      "Description": "Event 193: The radar station reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Assault",
+      "MoraleDelta": 3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0194",
+      "Title": "Decisive artillery battery",
+      "Description": "Event 194: The radar station is delaying the advance. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0195",
+      "Title": "Strategic drone squad",
+      "Description": "Event 195: The bridge has been compromised. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0196",
+      "Title": "High-Risk enemy outpost",
+      "Description": "Event 196: The refugee column requests extraction. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 0,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0197",
+      "Title": "Night artillery battery",
+      "Description": "Event 197: The radar station requests extraction. Morale shifts on the frontline.",
+      "Category": "Defense",
+      "MoraleDelta": -1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0198",
+      "Title": "Targeted refugee column",
+      "Description": "Event 198: The airfield has been compromised. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": -3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0199",
+      "Title": "Urgent airfield",
+      "Description": "Event 199: The communications relay needs immediate support. Operational tempo slows.",
+      "Category": "Logistics",
+      "MoraleDelta": 2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0200",
+      "Title": "Decisive airfield",
+      "Description": "Event 200: The enemy outpost reveals a hidden route. Territory lines stabilize for now.",
+      "Category": "Morale",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0201",
+      "Title": "Coordinated medical camp",
+      "Description": "Event 201: The enemy outpost requests extraction. Operational tempo slows.",
+      "Category": "Intelligence",
+      "MoraleDelta": -2,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0202",
+      "Title": "Targeted radar station",
+      "Description": "Event 202: The radar station is under heavy fire. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0203",
+      "Title": "High-Risk communications relay",
+      "Description": "Event 203: The bridge has been compromised. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0204",
+      "Title": "High-Risk radar station",
+      "Description": "Event 204: The refugee column is running low on fuel. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0205",
+      "Title": "Night drone squad",
+      "Description": "Event 205: The airfield is under heavy fire. Command confidence rises.",
+      "Category": "Defense",
+      "MoraleDelta": -3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0206",
+      "Title": "Night drone squad",
+      "Description": "Event 206: The communications relay sends a false signal. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": -3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0207",
+      "Title": "Coordinated radar station",
+      "Description": "Event 207: The artillery battery offers an opportunity. Command confidence rises.",
+      "Category": "Diplomacy",
+      "MoraleDelta": -3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0208",
+      "Title": "Strategic bridge",
+      "Description": "Event 208: The artillery battery has been compromised. Command confidence rises.",
+      "Category": "Assault",
+      "MoraleDelta": 3,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0209",
+      "Title": "Rapid medical camp",
+      "Description": "Event 209: The medical camp reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Defense",
+      "MoraleDelta": 2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0210",
+      "Title": "Coordinated medical camp",
+      "Description": "Event 210: The artillery battery requests extraction. Morale shifts on the frontline.",
+      "Category": "Morale",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0211",
+      "Title": "Decisive communications relay",
+      "Description": "Event 211: The medical camp reveals a hidden route. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0212",
+      "Title": "Rapid medical camp",
+      "Description": "Event 212: The artillery battery offers an opportunity. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": -2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0213",
+      "Title": "Night airfield",
+      "Description": "Event 213: The bridge has been compromised. Morale shifts on the frontline.",
+      "Category": "Logistics",
+      "MoraleDelta": -1,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0214",
+      "Title": "High-Risk radar station",
+      "Description": "Event 214: The bridge reports suspicious activity. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": 3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0215",
+      "Title": "Frontline enemy outpost",
+      "Description": "Event 215: The refugee column requests extraction. Operational tempo slows.",
+      "Category": "Intelligence",
+      "MoraleDelta": 2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0216",
+      "Title": "Decisive radar station",
+      "Description": "Event 216: The enemy outpost is running low on fuel. Command confidence rises.",
+      "Category": "Engineering",
+      "MoraleDelta": -1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0217",
+      "Title": "Urgent drone squad",
+      "Description": "Event 217: The communications relay reports suspicious activity. Operational tempo slows.",
+      "Category": "Assault",
+      "MoraleDelta": -3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0218",
+      "Title": "High-Risk communications relay",
+      "Description": "Event 218: The radar station is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": 2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0219",
+      "Title": "Coordinated supply convoy",
+      "Description": "Event 219: The supply convoy reveals a hidden route. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": -3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0220",
+      "Title": "Strategic supply convoy",
+      "Description": "Event 220: The airfield sends a false signal. Territory lines stabilize for now.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0221",
+      "Title": "Frontline enemy outpost",
+      "Description": "Event 221: The medical camp reports suspicious activity. Command confidence rises.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0222",
+      "Title": "Decisive bridge",
+      "Description": "Event 222: The supply convoy has been compromised. Operational tempo slows.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0223",
+      "Title": "High-Risk airfield",
+      "Description": "Event 223: The radar station needs immediate support. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": 2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0224",
+      "Title": "Night supply convoy",
+      "Description": "Event 224: The radar station is running low on fuel. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": -3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0225",
+      "Title": "Strategic airfield",
+      "Description": "Event 225: The airfield needs immediate support. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0226",
+      "Title": "Urgent radar station",
+      "Description": "Event 226: The artillery battery sends a false signal. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0227",
+      "Title": "Rapid bridge",
+      "Description": "Event 227: The enemy outpost reports suspicious activity. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0228",
+      "Title": "Frontline enemy outpost",
+      "Description": "Event 228: The bridge offers an opportunity. Supplies are stretched thin.",
+      "Category": "Logistics",
+      "MoraleDelta": -3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0229",
+      "Title": "Night refugee column",
+      "Description": "Event 229: The drone squad reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Logistics",
+      "MoraleDelta": -1,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0230",
+      "Title": "Rapid artillery battery",
+      "Description": "Event 230: The artillery battery is under heavy fire. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0231",
+      "Title": "Strategic enemy outpost",
+      "Description": "Event 231: The radar station requests extraction. Supplies are stretched thin.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0232",
+      "Title": "Night radar station",
+      "Description": "Event 232: The medical camp is running low on fuel. Territory lines stabilize for now.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0233",
+      "Title": "Rapid bridge",
+      "Description": "Event 233: The refugee column requests extraction. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0234",
+      "Title": "Frontline bridge",
+      "Description": "Event 234: The artillery battery has been compromised. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0235",
+      "Title": "Urgent supply convoy",
+      "Description": "Event 235: The communications relay has been compromised. Territory lines stabilize for now.",
+      "Category": "Defense",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0236",
+      "Title": "Night supply convoy",
+      "Description": "Event 236: The artillery battery sends a false signal. Supplies are stretched thin.",
+      "Category": "Recon",
+      "MoraleDelta": -1,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0237",
+      "Title": "Rapid refugee column",
+      "Description": "Event 237: The enemy outpost is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Morale",
+      "MoraleDelta": -1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0238",
+      "Title": "Covert enemy outpost",
+      "Description": "Event 238: The medical camp requests extraction. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": 2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0239",
+      "Title": "Targeted refugee column",
+      "Description": "Event 239: The refugee column needs immediate support. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": 2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0240",
+      "Title": "Coordinated drone squad",
+      "Description": "Event 240: The airfield sends a false signal. Morale shifts on the frontline.",
+      "Category": "Cyber",
+      "MoraleDelta": 0,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0241",
+      "Title": "Frontline medical camp",
+      "Description": "Event 241: The radar station needs immediate support. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0242",
+      "Title": "Covert bridge",
+      "Description": "Event 242: The drone squad requests extraction. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": 2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0243",
+      "Title": "Coordinated enemy outpost",
+      "Description": "Event 243: The radar station has been compromised. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": -2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0244",
+      "Title": "Strategic airfield",
+      "Description": "Event 244: The artillery battery sends a false signal. Morale shifts on the frontline.",
+      "Category": "Cyber",
+      "MoraleDelta": 1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0245",
+      "Title": "Decisive bridge",
+      "Description": "Event 245: The refugee column offers an opportunity. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": -2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0246",
+      "Title": "Decisive radar station",
+      "Description": "Event 246: The airfield is delaying the advance. Supplies are stretched thin.",
+      "Category": "Logistics",
+      "MoraleDelta": -3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0247",
+      "Title": "Decisive refugee column",
+      "Description": "Event 247: The supply convoy is under heavy fire. Supplies are stretched thin.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0248",
+      "Title": "Strategic drone squad",
+      "Description": "Event 248: The enemy outpost is under heavy fire. Operational tempo slows.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0249",
+      "Title": "Targeted enemy outpost",
+      "Description": "Event 249: The bridge offers an opportunity. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": -3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0250",
+      "Title": "Decisive bridge",
+      "Description": "Event 250: The artillery battery sends a false signal. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0251",
+      "Title": "Frontline radar station",
+      "Description": "Event 251: The drone squad reports suspicious activity. Command confidence rises.",
+      "Category": "Engineering",
+      "MoraleDelta": 2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0252",
+      "Title": "Frontline enemy outpost",
+      "Description": "Event 252: The airfield has been compromised. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": -3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0253",
+      "Title": "Night medical camp",
+      "Description": "Event 253: The airfield reveals a hidden route. Supplies are stretched thin.",
+      "Category": "Logistics",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0254",
+      "Title": "Night drone squad",
+      "Description": "Event 254: The supply convoy is running low on fuel. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0255",
+      "Title": "Frontline communications relay",
+      "Description": "Event 255: The supply convoy reports suspicious activity. Operational tempo slows.",
+      "Category": "Morale",
+      "MoraleDelta": 0,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0256",
+      "Title": "Rapid communications relay",
+      "Description": "Event 256: The communications relay reports suspicious activity. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0257",
+      "Title": "Frontline drone squad",
+      "Description": "Event 257: The medical camp has been compromised. Morale shifts on the frontline.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0258",
+      "Title": "Night radar station",
+      "Description": "Event 258: The enemy outpost is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Defense",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0259",
+      "Title": "Frontline medical camp",
+      "Description": "Event 259: The supply convoy is delaying the advance. Command confidence rises.",
+      "Category": "Engineering",
+      "MoraleDelta": -1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0260",
+      "Title": "Urgent bridge",
+      "Description": "Event 260: The refugee column offers an opportunity. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": -3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0261",
+      "Title": "Rapid refugee column",
+      "Description": "Event 261: The bridge reveals a hidden route. Supplies are stretched thin.",
+      "Category": "Defense",
+      "MoraleDelta": 1,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0262",
+      "Title": "High-Risk medical camp",
+      "Description": "Event 262: The enemy outpost is under heavy fire. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": -1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0263",
+      "Title": "Coordinated bridge",
+      "Description": "Event 263: The drone squad is under heavy fire. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": 2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0264",
+      "Title": "Night medical camp",
+      "Description": "Event 264: The communications relay offers an opportunity. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": -1,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0265",
+      "Title": "Strategic supply convoy",
+      "Description": "Event 265: The artillery battery reports suspicious activity. Supplies are stretched thin.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0266",
+      "Title": "Covert airfield",
+      "Description": "Event 266: The medical camp reveals a hidden route. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": -3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0267",
+      "Title": "Covert supply convoy",
+      "Description": "Event 267: The drone squad is delaying the advance. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": -2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0268",
+      "Title": "Rapid artillery battery",
+      "Description": "Event 268: The artillery battery offers an opportunity. Morale shifts on the frontline.",
+      "Category": "Logistics",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0269",
+      "Title": "Covert communications relay",
+      "Description": "Event 269: The drone squad is under heavy fire. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0270",
+      "Title": "Night enemy outpost",
+      "Description": "Event 270: The enemy outpost is running low on fuel. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0271",
+      "Title": "Targeted drone squad",
+      "Description": "Event 271: The artillery battery is under heavy fire. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0272",
+      "Title": "High-Risk drone squad",
+      "Description": "Event 272: The airfield reports suspicious activity. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": -3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0273",
+      "Title": "Decisive medical camp",
+      "Description": "Event 273: The artillery battery reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Cyber",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0274",
+      "Title": "Decisive refugee column",
+      "Description": "Event 274: The radar station reveals a hidden route. Operational tempo slows.",
+      "Category": "Morale",
+      "MoraleDelta": 2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0275",
+      "Title": "Strategic bridge",
+      "Description": "Event 275: The drone squad reports suspicious activity. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0276",
+      "Title": "Night medical camp",
+      "Description": "Event 276: The refugee column needs immediate support. Territory lines stabilize for now.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0277",
+      "Title": "Night airfield",
+      "Description": "Event 277: The drone squad is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0278",
+      "Title": "Urgent enemy outpost",
+      "Description": "Event 278: The bridge offers an opportunity. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": 1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0279",
+      "Title": "Targeted drone squad",
+      "Description": "Event 279: The medical camp reports suspicious activity. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0280",
+      "Title": "Targeted medical camp",
+      "Description": "Event 280: The drone squad has been compromised. Supplies are stretched thin.",
+      "Category": "Logistics",
+      "MoraleDelta": -3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0281",
+      "Title": "Coordinated enemy outpost",
+      "Description": "Event 281: The enemy outpost is running low on fuel. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": 0,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0282",
+      "Title": "Decisive drone squad",
+      "Description": "Event 282: The enemy outpost has been compromised. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": -1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0283",
+      "Title": "Targeted communications relay",
+      "Description": "Event 283: The communications relay is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Intelligence",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0284",
+      "Title": "Strategic artillery battery",
+      "Description": "Event 284: The airfield has been compromised. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": 3,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0285",
+      "Title": "Night medical camp",
+      "Description": "Event 285: The airfield needs immediate support. Morale shifts on the frontline.",
+      "Category": "Engineering",
+      "MoraleDelta": -3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0286",
+      "Title": "Urgent medical camp",
+      "Description": "Event 286: The supply convoy needs immediate support. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": -1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0287",
+      "Title": "Rapid airfield",
+      "Description": "Event 287: The drone squad offers an opportunity. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0288",
+      "Title": "Decisive drone squad",
+      "Description": "Event 288: The medical camp reports suspicious activity. Supplies are stretched thin.",
+      "Category": "Recon",
+      "MoraleDelta": -2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0289",
+      "Title": "Frontline drone squad",
+      "Description": "Event 289: The refugee column is under heavy fire. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0290",
+      "Title": "Strategic refugee column",
+      "Description": "Event 290: The bridge sends a false signal. Morale shifts on the frontline.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0291",
+      "Title": "Decisive airfield",
+      "Description": "Event 291: The refugee column needs immediate support. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": -3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0292",
+      "Title": "Strategic bridge",
+      "Description": "Event 292: The airfield is delaying the advance. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": -2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0293",
+      "Title": "High-Risk medical camp",
+      "Description": "Event 293: The supply convoy has been compromised. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0294",
+      "Title": "Targeted radar station",
+      "Description": "Event 294: The bridge is under heavy fire. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": -1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0295",
+      "Title": "Decisive refugee column",
+      "Description": "Event 295: The radar station has been compromised. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": -3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0296",
+      "Title": "Urgent artillery battery",
+      "Description": "Event 296: The supply convoy reports suspicious activity. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0297",
+      "Title": "Night refugee column",
+      "Description": "Event 297: The bridge sends a false signal. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 0,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0298",
+      "Title": "Coordinated refugee column",
+      "Description": "Event 298: The drone squad is delaying the advance. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": -1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0299",
+      "Title": "High-Risk drone squad",
+      "Description": "Event 299: The drone squad is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Cyber",
+      "MoraleDelta": -1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0300",
+      "Title": "Strategic refugee column",
+      "Description": "Event 300: The medical camp offers an opportunity. Morale shifts on the frontline.",
+      "Category": "Medical",
+      "MoraleDelta": 1,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0301",
+      "Title": "Targeted airfield",
+      "Description": "Event 301: The bridge is under heavy fire. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0302",
+      "Title": "Coordinated enemy outpost",
+      "Description": "Event 302: The supply convoy needs immediate support. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0303",
+      "Title": "Covert enemy outpost",
+      "Description": "Event 303: The radar station is under heavy fire. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0304",
+      "Title": "Coordinated communications relay",
+      "Description": "Event 304: The supply convoy reports suspicious activity. Operational tempo slows.",
+      "Category": "Morale",
+      "MoraleDelta": -2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0305",
+      "Title": "Coordinated supply convoy",
+      "Description": "Event 305: The artillery battery sends a false signal. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0306",
+      "Title": "Targeted bridge",
+      "Description": "Event 306: The airfield is under heavy fire. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0307",
+      "Title": "Covert supply convoy",
+      "Description": "Event 307: The medical camp reports suspicious activity. Territory lines stabilize for now.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0308",
+      "Title": "Strategic airfield",
+      "Description": "Event 308: The enemy outpost reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Intelligence",
+      "MoraleDelta": -3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0309",
+      "Title": "Targeted artillery battery",
+      "Description": "Event 309: The refugee column reports suspicious activity. Operational tempo slows.",
+      "Category": "Morale",
+      "MoraleDelta": -1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0310",
+      "Title": "Night artillery battery",
+      "Description": "Event 310: The artillery battery offers an opportunity. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0311",
+      "Title": "Night refugee column",
+      "Description": "Event 311: The bridge is delaying the advance. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": 0,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0312",
+      "Title": "Covert refugee column",
+      "Description": "Event 312: The drone squad reports suspicious activity. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0313",
+      "Title": "Covert airfield",
+      "Description": "Event 313: The supply convoy reports suspicious activity. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": 2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0314",
+      "Title": "Targeted communications relay",
+      "Description": "Event 314: The radar station sends a false signal. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": -1,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0315",
+      "Title": "Coordinated artillery battery",
+      "Description": "Event 315: The refugee column sends a false signal. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": 0,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0316",
+      "Title": "Covert artillery battery",
+      "Description": "Event 316: The medical camp has been compromised. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": 2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0317",
+      "Title": "Frontline radar station",
+      "Description": "Event 317: The enemy outpost is under heavy fire. Operational tempo slows.",
+      "Category": "Morale",
+      "MoraleDelta": -3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0318",
+      "Title": "Strategic drone squad",
+      "Description": "Event 318: The communications relay sends a false signal. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0319",
+      "Title": "Targeted airfield",
+      "Description": "Event 319: The enemy outpost is delaying the advance. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": -2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0320",
+      "Title": "Frontline drone squad",
+      "Description": "Event 320: The refugee column requests extraction. Command confidence rises.",
+      "Category": "Assault",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0321",
+      "Title": "Night radar station",
+      "Description": "Event 321: The drone squad is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0322",
+      "Title": "Strategic refugee column",
+      "Description": "Event 322: The enemy outpost is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": 3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0323",
+      "Title": "Strategic bridge",
+      "Description": "Event 323: The artillery battery has been compromised. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0324",
+      "Title": "Rapid bridge",
+      "Description": "Event 324: The bridge needs immediate support. Operational tempo slows.",
+      "Category": "Intelligence",
+      "MoraleDelta": -1,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0325",
+      "Title": "Night airfield",
+      "Description": "Event 325: The bridge reports suspicious activity. Operational tempo slows.",
+      "Category": "Logistics",
+      "MoraleDelta": -3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0326",
+      "Title": "Targeted radar station",
+      "Description": "Event 326: The radar station is under heavy fire. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": 0,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0327",
+      "Title": "Coordinated radar station",
+      "Description": "Event 327: The artillery battery offers an opportunity. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0328",
+      "Title": "Decisive refugee column",
+      "Description": "Event 328: The supply convoy is running low on fuel. Supplies are stretched thin.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0329",
+      "Title": "Frontline bridge",
+      "Description": "Event 329: The drone squad reports suspicious activity. Supplies are stretched thin.",
+      "Category": "Medical",
+      "MoraleDelta": -2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0330",
+      "Title": "Urgent airfield",
+      "Description": "Event 330: The enemy outpost is under heavy fire. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0331",
+      "Title": "Targeted medical camp",
+      "Description": "Event 331: The artillery battery sends a false signal. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0332",
+      "Title": "Night medical camp",
+      "Description": "Event 332: The bridge reveals a hidden route. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": -2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0333",
+      "Title": "Frontline enemy outpost",
+      "Description": "Event 333: The drone squad sends a false signal. Morale shifts on the frontline.",
+      "Category": "Intelligence",
+      "MoraleDelta": 2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0334",
+      "Title": "Night radar station",
+      "Description": "Event 334: The supply convoy sends a false signal. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0335",
+      "Title": "Covert radar station",
+      "Description": "Event 335: The bridge reports suspicious activity. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": 3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0336",
+      "Title": "Urgent communications relay",
+      "Description": "Event 336: The artillery battery offers an opportunity. Supplies are stretched thin.",
+      "Category": "Morale",
+      "MoraleDelta": 0,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0337",
+      "Title": "Targeted supply convoy",
+      "Description": "Event 337: The drone squad is under heavy fire. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": -1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0338",
+      "Title": "Strategic refugee column",
+      "Description": "Event 338: The refugee column sends a false signal. Operational tempo slows.",
+      "Category": "Intelligence",
+      "MoraleDelta": -1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0339",
+      "Title": "Coordinated radar station",
+      "Description": "Event 339: The artillery battery is running low on fuel. Command confidence rises.",
+      "Category": "Morale",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0340",
+      "Title": "Strategic refugee column",
+      "Description": "Event 340: The bridge reveals a hidden route. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0341",
+      "Title": "Targeted bridge",
+      "Description": "Event 341: The bridge reports suspicious activity. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": 1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0342",
+      "Title": "Decisive medical camp",
+      "Description": "Event 342: The drone squad requests extraction. Command confidence rises.",
+      "Category": "Assault",
+      "MoraleDelta": 3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0343",
+      "Title": "Urgent supply convoy",
+      "Description": "Event 343: The medical camp is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Assault",
+      "MoraleDelta": -2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0344",
+      "Title": "Covert airfield",
+      "Description": "Event 344: The drone squad sends a false signal. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0345",
+      "Title": "Decisive drone squad",
+      "Description": "Event 345: The supply convoy is under heavy fire. Command confidence rises.",
+      "Category": "Assault",
+      "MoraleDelta": 0,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0346",
+      "Title": "High-Risk refugee column",
+      "Description": "Event 346: The airfield is under heavy fire. Supplies are stretched thin.",
+      "Category": "Morale",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0347",
+      "Title": "Covert medical camp",
+      "Description": "Event 347: The bridge is under heavy fire. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0348",
+      "Title": "Rapid artillery battery",
+      "Description": "Event 348: The supply convoy is delaying the advance. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": -3,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0349",
+      "Title": "High-Risk bridge",
+      "Description": "Event 349: The radar station reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Defense",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0350",
+      "Title": "Urgent radar station",
+      "Description": "Event 350: The radar station is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Intelligence",
+      "MoraleDelta": -1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0351",
+      "Title": "Rapid artillery battery",
+      "Description": "Event 351: The radar station is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": 0,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0352",
+      "Title": "Urgent radar station",
+      "Description": "Event 352: The airfield offers an opportunity. Operational tempo slows.",
+      "Category": "Diplomacy",
+      "MoraleDelta": -3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0353",
+      "Title": "Urgent airfield",
+      "Description": "Event 353: The drone squad is under heavy fire. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": -1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0354",
+      "Title": "High-Risk medical camp",
+      "Description": "Event 354: The communications relay requests extraction. Morale shifts on the frontline.",
+      "Category": "Medical",
+      "MoraleDelta": -1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0355",
+      "Title": "Rapid artillery battery",
+      "Description": "Event 355: The artillery battery has been compromised. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0356",
+      "Title": "Night bridge",
+      "Description": "Event 356: The communications relay is delaying the advance. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 2,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0357",
+      "Title": "Covert airfield",
+      "Description": "Event 357: The enemy outpost requests extraction. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": -2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0358",
+      "Title": "High-Risk drone squad",
+      "Description": "Event 358: The radar station reports suspicious activity. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0359",
+      "Title": "Urgent radar station",
+      "Description": "Event 359: The artillery battery is under heavy fire. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0360",
+      "Title": "Decisive artillery battery",
+      "Description": "Event 360: The bridge is delaying the advance. Command confidence rises.",
+      "Category": "Assault",
+      "MoraleDelta": 3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0361",
+      "Title": "Targeted bridge",
+      "Description": "Event 361: The artillery battery is running low on fuel. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": 3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0362",
+      "Title": "Decisive supply convoy",
+      "Description": "Event 362: The drone squad reveals a hidden route. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": -2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0363",
+      "Title": "Rapid communications relay",
+      "Description": "Event 363: The drone squad requests extraction. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": 1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0364",
+      "Title": "High-Risk medical camp",
+      "Description": "Event 364: The refugee column is delaying the advance. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": 3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0365",
+      "Title": "Night bridge",
+      "Description": "Event 365: The artillery battery reveals a hidden route. Supplies are stretched thin.",
+      "Category": "Recon",
+      "MoraleDelta": 1,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0366",
+      "Title": "Strategic airfield",
+      "Description": "Event 366: The communications relay is running low on fuel. Morale shifts on the frontline.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0367",
+      "Title": "Frontline airfield",
+      "Description": "Event 367: The communications relay offers an opportunity. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 2,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0368",
+      "Title": "Strategic drone squad",
+      "Description": "Event 368: The bridge sends a false signal. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": 1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0369",
+      "Title": "Frontline enemy outpost",
+      "Description": "Event 369: The artillery battery reveals a hidden route. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0370",
+      "Title": "Frontline supply convoy",
+      "Description": "Event 370: The enemy outpost needs immediate support. Morale shifts on the frontline.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0371",
+      "Title": "Urgent radar station",
+      "Description": "Event 371: The radar station is running low on fuel. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0372",
+      "Title": "Covert enemy outpost",
+      "Description": "Event 372: The airfield is under heavy fire. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": 2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0373",
+      "Title": "Urgent supply convoy",
+      "Description": "Event 373: The artillery battery needs immediate support. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0374",
+      "Title": "Night drone squad",
+      "Description": "Event 374: The airfield is running low on fuel. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": -1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0375",
+      "Title": "Strategic drone squad",
+      "Description": "Event 375: The airfield is under heavy fire. Command confidence rises.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0376",
+      "Title": "Decisive artillery battery",
+      "Description": "Event 376: The artillery battery is under heavy fire. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0377",
+      "Title": "Rapid enemy outpost",
+      "Description": "Event 377: The artillery battery requests extraction. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0378",
+      "Title": "Rapid communications relay",
+      "Description": "Event 378: The bridge sends a false signal. Supplies are stretched thin.",
+      "Category": "Medical",
+      "MoraleDelta": 1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0379",
+      "Title": "Frontline communications relay",
+      "Description": "Event 379: The medical camp is running low on fuel. Morale shifts on the frontline.",
+      "Category": "Engineering",
+      "MoraleDelta": -3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0380",
+      "Title": "Urgent medical camp",
+      "Description": "Event 380: The enemy outpost is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0381",
+      "Title": "Night airfield",
+      "Description": "Event 381: The airfield reveals a hidden route. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": -2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0382",
+      "Title": "Strategic refugee column",
+      "Description": "Event 382: The refugee column has been compromised. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": 1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0383",
+      "Title": "Covert drone squad",
+      "Description": "Event 383: The artillery battery is under heavy fire. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0384",
+      "Title": "Decisive artillery battery",
+      "Description": "Event 384: The bridge offers an opportunity. Morale shifts on the frontline.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0385",
+      "Title": "Coordinated bridge",
+      "Description": "Event 385: The bridge reports suspicious activity. Morale shifts on the frontline.",
+      "Category": "Intelligence",
+      "MoraleDelta": 2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0386",
+      "Title": "Covert medical camp",
+      "Description": "Event 386: The bridge is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Logistics",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0387",
+      "Title": "Night refugee column",
+      "Description": "Event 387: The airfield is running low on fuel. Command confidence rises.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0388",
+      "Title": "Urgent communications relay",
+      "Description": "Event 388: The supply convoy needs immediate support. Morale shifts on the frontline.",
+      "Category": "Medical",
+      "MoraleDelta": 2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0389",
+      "Title": "Strategic enemy outpost",
+      "Description": "Event 389: The airfield is delaying the advance. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": -3,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0390",
+      "Title": "Rapid airfield",
+      "Description": "Event 390: The communications relay reveals a hidden route. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0391",
+      "Title": "Night medical camp",
+      "Description": "Event 391: The artillery battery requests extraction. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": 1,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0392",
+      "Title": "Targeted enemy outpost",
+      "Description": "Event 392: The enemy outpost reports suspicious activity. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0393",
+      "Title": "High-Risk radar station",
+      "Description": "Event 393: The refugee column is under heavy fire. Morale shifts on the frontline.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0394",
+      "Title": "Covert artillery battery",
+      "Description": "Event 394: The bridge is under heavy fire. Operational tempo slows.",
+      "Category": "Morale",
+      "MoraleDelta": 3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0395",
+      "Title": "Decisive supply convoy",
+      "Description": "Event 395: The refugee column sends a false signal. Territory lines stabilize for now.",
+      "Category": "Defense",
+      "MoraleDelta": -3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0396",
+      "Title": "Urgent medical camp",
+      "Description": "Event 396: The artillery battery has been compromised. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0397",
+      "Title": "Targeted radar station",
+      "Description": "Event 397: The communications relay sends a false signal. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": -2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0398",
+      "Title": "Frontline drone squad",
+      "Description": "Event 398: The artillery battery requests extraction. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0399",
+      "Title": "Rapid communications relay",
+      "Description": "Event 399: The airfield reveals a hidden route. Operational tempo slows.",
+      "Category": "Cyber",
+      "MoraleDelta": 2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0400",
+      "Title": "Frontline drone squad",
+      "Description": "Event 400: The radar station reports suspicious activity. Operational tempo slows.",
+      "Category": "Intelligence",
+      "MoraleDelta": -3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0401",
+      "Title": "Coordinated medical camp",
+      "Description": "Event 401: The drone squad is running low on fuel. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0402",
+      "Title": "Urgent refugee column",
+      "Description": "Event 402: The artillery battery needs immediate support. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": -1,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0403",
+      "Title": "Rapid communications relay",
+      "Description": "Event 403: The enemy outpost is under heavy fire. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 2,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0404",
+      "Title": "Night supply convoy",
+      "Description": "Event 404: The enemy outpost sends a false signal. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0405",
+      "Title": "Decisive medical camp",
+      "Description": "Event 405: The radar station has been compromised. Supplies are stretched thin.",
+      "Category": "Logistics",
+      "MoraleDelta": 1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0406",
+      "Title": "Targeted enemy outpost",
+      "Description": "Event 406: The radar station is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": 1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0407",
+      "Title": "High-Risk artillery battery",
+      "Description": "Event 407: The enemy outpost needs immediate support. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": -3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0408",
+      "Title": "Strategic radar station",
+      "Description": "Event 408: The artillery battery offers an opportunity. Territory lines stabilize for now.",
+      "Category": "Morale",
+      "MoraleDelta": 2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0409",
+      "Title": "Coordinated drone squad",
+      "Description": "Event 409: The airfield is under heavy fire. Operational tempo slows.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0410",
+      "Title": "Urgent drone squad",
+      "Description": "Event 410: The refugee column offers an opportunity. Supplies are stretched thin.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0411",
+      "Title": "Rapid drone squad",
+      "Description": "Event 411: The radar station offers an opportunity. Operational tempo slows.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0412",
+      "Title": "High-Risk artillery battery",
+      "Description": "Event 412: The radar station is running low on fuel. Command confidence rises.",
+      "Category": "Intelligence",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0413",
+      "Title": "Targeted medical camp",
+      "Description": "Event 413: The artillery battery requests extraction. Territory lines stabilize for now.",
+      "Category": "Morale",
+      "MoraleDelta": 2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0414",
+      "Title": "Night artillery battery",
+      "Description": "Event 414: The supply convoy is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0415",
+      "Title": "High-Risk enemy outpost",
+      "Description": "Event 415: The airfield reveals a hidden route. Operational tempo slows.",
+      "Category": "Assault",
+      "MoraleDelta": -2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0416",
+      "Title": "Urgent enemy outpost",
+      "Description": "Event 416: The supply convoy is under heavy fire. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0417",
+      "Title": "Covert communications relay",
+      "Description": "Event 417: The medical camp offers an opportunity. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 2,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0418",
+      "Title": "High-Risk artillery battery",
+      "Description": "Event 418: The refugee column reports suspicious activity. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 0,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0419",
+      "Title": "Night communications relay",
+      "Description": "Event 419: The bridge needs immediate support. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": 0,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0420",
+      "Title": "Covert airfield",
+      "Description": "Event 420: The communications relay has been compromised. Territory lines stabilize for now.",
+      "Category": "Medical",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0421",
+      "Title": "Rapid bridge",
+      "Description": "Event 421: The communications relay is under heavy fire. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0422",
+      "Title": "Decisive airfield",
+      "Description": "Event 422: The bridge reports suspicious activity. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": 2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0423",
+      "Title": "Targeted radar station",
+      "Description": "Event 423: The radar station sends a false signal. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0424",
+      "Title": "Night bridge",
+      "Description": "Event 424: The airfield has been compromised. Territory lines stabilize for now.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0425",
+      "Title": "Rapid artillery battery",
+      "Description": "Event 425: The artillery battery is under heavy fire. Command confidence rises.",
+      "Category": "Morale",
+      "MoraleDelta": -1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0426",
+      "Title": "Coordinated refugee column",
+      "Description": "Event 426: The radar station is running low on fuel. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": -3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0427",
+      "Title": "Targeted airfield",
+      "Description": "Event 427: The supply convoy reports suspicious activity. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": 1,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0428",
+      "Title": "Rapid communications relay",
+      "Description": "Event 428: The drone squad requests extraction. Territory lines stabilize for now.",
+      "Category": "Defense",
+      "MoraleDelta": -3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0429",
+      "Title": "Targeted radar station",
+      "Description": "Event 429: The airfield is under heavy fire. Operational tempo slows.",
+      "Category": "Assault",
+      "MoraleDelta": -2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0430",
+      "Title": "Urgent bridge",
+      "Description": "Event 430: The medical camp needs immediate support. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": -3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0431",
+      "Title": "Decisive artillery battery",
+      "Description": "Event 431: The bridge is under heavy fire. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": -1,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0432",
+      "Title": "Rapid artillery battery",
+      "Description": "Event 432: The refugee column reveals a hidden route. Morale shifts on the frontline.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0433",
+      "Title": "Coordinated medical camp",
+      "Description": "Event 433: The drone squad is running low on fuel. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": -3,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0434",
+      "Title": "High-Risk airfield",
+      "Description": "Event 434: The artillery battery has been compromised. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": -3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0435",
+      "Title": "Targeted enemy outpost",
+      "Description": "Event 435: The communications relay sends a false signal. Morale shifts on the frontline.",
+      "Category": "Engineering",
+      "MoraleDelta": 2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0436",
+      "Title": "Rapid medical camp",
+      "Description": "Event 436: The refugee column is under heavy fire. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": 3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0437",
+      "Title": "Covert bridge",
+      "Description": "Event 437: The supply convoy reveals a hidden route. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": -1,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0438",
+      "Title": "Urgent medical camp",
+      "Description": "Event 438: The drone squad needs immediate support. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0439",
+      "Title": "Urgent artillery battery",
+      "Description": "Event 439: The drone squad is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Morale",
+      "MoraleDelta": -2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0440",
+      "Title": "Decisive radar station",
+      "Description": "Event 440: The airfield requests extraction. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0441",
+      "Title": "Decisive enemy outpost",
+      "Description": "Event 441: The drone squad reveals a hidden route. Supplies are stretched thin.",
+      "Category": "Intelligence",
+      "MoraleDelta": 3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0442",
+      "Title": "Coordinated enemy outpost",
+      "Description": "Event 442: The bridge has been compromised. Supplies are stretched thin.",
+      "Category": "Morale",
+      "MoraleDelta": 3,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0443",
+      "Title": "Night radar station",
+      "Description": "Event 443: The radar station reports suspicious activity. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0444",
+      "Title": "Coordinated artillery battery",
+      "Description": "Event 444: The radar station reveals a hidden route. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": 0,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0445",
+      "Title": "Targeted bridge",
+      "Description": "Event 445: The medical camp is delaying the advance. Morale shifts on the frontline.",
+      "Category": "Assault",
+      "MoraleDelta": -1,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0446",
+      "Title": "Decisive bridge",
+      "Description": "Event 446: The refugee column sends a false signal. Command confidence rises.",
+      "Category": "Morale",
+      "MoraleDelta": -1,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0447",
+      "Title": "Rapid drone squad",
+      "Description": "Event 447: The airfield reports suspicious activity. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0448",
+      "Title": "Covert medical camp",
+      "Description": "Event 448: The drone squad is under heavy fire. Territory lines stabilize for now.",
+      "Category": "Intelligence",
+      "MoraleDelta": -2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0449",
+      "Title": "Strategic radar station",
+      "Description": "Event 449: The communications relay requests extraction. Territory lines stabilize for now.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0450",
+      "Title": "Urgent artillery battery",
+      "Description": "Event 450: The airfield requests extraction. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0451",
+      "Title": "Strategic artillery battery",
+      "Description": "Event 451: The drone squad is under heavy fire. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0452",
+      "Title": "Rapid supply convoy",
+      "Description": "Event 452: The artillery battery sends a false signal. Supplies are stretched thin.",
+      "Category": "Logistics",
+      "MoraleDelta": 0,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0453",
+      "Title": "Strategic radar station",
+      "Description": "Event 453: The medical camp needs immediate support. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": 2,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0454",
+      "Title": "Targeted radar station",
+      "Description": "Event 454: The bridge is running low on fuel. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": 0,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0455",
+      "Title": "Targeted artillery battery",
+      "Description": "Event 455: The medical camp reports suspicious activity. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0456",
+      "Title": "Rapid artillery battery",
+      "Description": "Event 456: The refugee column is running low on fuel. Territory lines stabilize for now.",
+      "Category": "Engineering",
+      "MoraleDelta": 0,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0457",
+      "Title": "Frontline refugee column",
+      "Description": "Event 457: The communications relay requests extraction. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0458",
+      "Title": "Decisive artillery battery",
+      "Description": "Event 458: The artillery battery is running low on fuel. Supplies are stretched thin.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 1,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0459",
+      "Title": "Decisive bridge",
+      "Description": "Event 459: The airfield requests extraction. Territory lines stabilize for now.",
+      "Category": "Defense",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0460",
+      "Title": "Frontline airfield",
+      "Description": "Event 460: The artillery battery requests extraction. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": -2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0461",
+      "Title": "Strategic supply convoy",
+      "Description": "Event 461: The medical camp has been compromised. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0462",
+      "Title": "Strategic communications relay",
+      "Description": "Event 462: The medical camp is under heavy fire. Morale shifts on the frontline.",
+      "Category": "Recon",
+      "MoraleDelta": -1,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0463",
+      "Title": "Decisive communications relay",
+      "Description": "Event 463: The medical camp needs immediate support. Operational tempo slows.",
+      "Category": "Cyber",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0464",
+      "Title": "High-Risk communications relay",
+      "Description": "Event 464: The communications relay has been compromised. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": -3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0465",
+      "Title": "Covert bridge",
+      "Description": "Event 465: The communications relay offers an opportunity. Command confidence rises.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0466",
+      "Title": "High-Risk drone squad",
+      "Description": "Event 466: The artillery battery sends a false signal. Territory lines stabilize for now.",
+      "Category": "Recon",
+      "MoraleDelta": -1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0467",
+      "Title": "Coordinated radar station",
+      "Description": "Event 467: The bridge reports suspicious activity. Supplies are stretched thin.",
+      "Category": "Medical",
+      "MoraleDelta": 1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0468",
+      "Title": "High-Risk radar station",
+      "Description": "Event 468: The airfield is running low on fuel. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": -2,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0469",
+      "Title": "Rapid refugee column",
+      "Description": "Event 469: The refugee column needs immediate support. Command confidence rises.",
+      "Category": "Defense",
+      "MoraleDelta": 3,
+      "SupplyDelta": -4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0470",
+      "Title": "Strategic enemy outpost",
+      "Description": "Event 470: The supply convoy needs immediate support. Command confidence rises.",
+      "Category": "Logistics",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0471",
+      "Title": "Decisive radar station",
+      "Description": "Event 471: The supply convoy offers an opportunity. Morale shifts on the frontline.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0472",
+      "Title": "Night radar station",
+      "Description": "Event 472: The supply convoy requests extraction. Operational tempo slows.",
+      "Category": "Medical",
+      "MoraleDelta": -3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0473",
+      "Title": "Frontline radar station",
+      "Description": "Event 473: The supply convoy sends a false signal. Operational tempo slows.",
+      "Category": "Diplomacy",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0474",
+      "Title": "Covert radar station",
+      "Description": "Event 474: The communications relay reveals a hidden route. Command confidence rises.",
+      "Category": "Defense",
+      "MoraleDelta": -3,
+      "SupplyDelta": -4,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0475",
+      "Title": "Decisive artillery battery",
+      "Description": "Event 475: The airfield is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Logistics",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0476",
+      "Title": "Rapid medical camp",
+      "Description": "Event 476: The refugee column is delaying the advance. Operational tempo slows.",
+      "Category": "Intelligence",
+      "MoraleDelta": 3,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0477",
+      "Title": "High-Risk medical camp",
+      "Description": "Event 477: The supply convoy sends a false signal. Morale shifts on the frontline.",
+      "Category": "Defense",
+      "MoraleDelta": -1,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0478",
+      "Title": "Rapid bridge",
+      "Description": "Event 478: The refugee column requests extraction. Supplies are stretched thin.",
+      "Category": "Defense",
+      "MoraleDelta": 3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0479",
+      "Title": "Urgent bridge",
+      "Description": "Event 479: The radar station has been compromised. Supplies are stretched thin.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0480",
+      "Title": "Covert communications relay",
+      "Description": "Event 480: The artillery battery reports suspicious activity. Morale shifts on the frontline.",
+      "Category": "Assault",
+      "MoraleDelta": 1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0481",
+      "Title": "Decisive medical camp",
+      "Description": "Event 481: The medical camp requests extraction. Operational tempo slows.",
+      "Category": "Recon",
+      "MoraleDelta": -3,
+      "SupplyDelta": 1,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0482",
+      "Title": "Covert medical camp",
+      "Description": "Event 482: The medical camp requests extraction. Morale shifts on the frontline.",
+      "Category": "Logistics",
+      "MoraleDelta": 3,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0483",
+      "Title": "Strategic refugee column",
+      "Description": "Event 483: The refugee column is delaying the advance. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": 3,
+      "SupplyDelta": 4,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0484",
+      "Title": "Strategic medical camp",
+      "Description": "Event 484: The artillery battery offers an opportunity. Operational tempo slows.",
+      "Category": "Cyber",
+      "MoraleDelta": -2,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0485",
+      "Title": "Decisive refugee column",
+      "Description": "Event 485: The enemy outpost is delaying the advance. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": -2,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0486",
+      "Title": "Frontline artillery battery",
+      "Description": "Event 486: The artillery battery is under heavy fire. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": 2,
+      "SupplyDelta": 1,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0487",
+      "Title": "Night drone squad",
+      "Description": "Event 487: The supply convoy needs immediate support. Supplies are stretched thin.",
+      "Category": "Engineering",
+      "MoraleDelta": 3,
+      "SupplyDelta": -2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0488",
+      "Title": "High-Risk radar station",
+      "Description": "Event 488: The radar station is running low on fuel. Operational tempo slows.",
+      "Category": "Defense",
+      "MoraleDelta": -3,
+      "SupplyDelta": -3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0489",
+      "Title": "Targeted radar station",
+      "Description": "Event 489: The airfield is delaying the advance. Supplies are stretched thin.",
+      "Category": "Recon",
+      "MoraleDelta": 3,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0490",
+      "Title": "High-Risk bridge",
+      "Description": "Event 490: The bridge needs immediate support. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": -1,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0491",
+      "Title": "Frontline medical camp",
+      "Description": "Event 491: The artillery battery is under heavy fire. Command confidence rises.",
+      "Category": "Cyber",
+      "MoraleDelta": -2,
+      "SupplyDelta": 0,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0492",
+      "Title": "High-Risk supply convoy",
+      "Description": "Event 492: The drone squad is delaying the advance. Territory lines stabilize for now.",
+      "Category": "Diplomacy",
+      "MoraleDelta": -1,
+      "SupplyDelta": 3,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0493",
+      "Title": "High-Risk bridge",
+      "Description": "Event 493: The artillery battery sends a false signal. Operational tempo slows.",
+      "Category": "Cyber",
+      "MoraleDelta": -2,
+      "SupplyDelta": -5,
+      "TerritoryDelta": 1
+    },
+    {
+      "Id": "EVT_0494",
+      "Title": "High-Risk refugee column",
+      "Description": "Event 494: The drone squad sends a false signal. Supplies are stretched thin.",
+      "Category": "Medical",
+      "MoraleDelta": 2,
+      "SupplyDelta": 2,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0495",
+      "Title": "Targeted refugee column",
+      "Description": "Event 495: The airfield needs immediate support. Territory lines stabilize for now.",
+      "Category": "Morale",
+      "MoraleDelta": 0,
+      "SupplyDelta": 2,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0496",
+      "Title": "Coordinated bridge",
+      "Description": "Event 496: The bridge sends a false signal. Command confidence rises.",
+      "Category": "Defense",
+      "MoraleDelta": -1,
+      "SupplyDelta": -3,
+      "TerritoryDelta": 2
+    },
+    {
+      "Id": "EVT_0497",
+      "Title": "Targeted refugee column",
+      "Description": "Event 497: The artillery battery reveals a hidden route. Operational tempo slows.",
+      "Category": "Engineering",
+      "MoraleDelta": 2,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -1
+    },
+    {
+      "Id": "EVT_0498",
+      "Title": "Strategic airfield",
+      "Description": "Event 498: The airfield is under heavy fire. Command confidence rises.",
+      "Category": "Recon",
+      "MoraleDelta": 0,
+      "SupplyDelta": 3,
+      "TerritoryDelta": 0
+    },
+    {
+      "Id": "EVT_0499",
+      "Title": "Decisive enemy outpost",
+      "Description": "Event 499: The communications relay offers an opportunity. Command confidence rises.",
+      "Category": "Medical",
+      "MoraleDelta": 3,
+      "SupplyDelta": -5,
+      "TerritoryDelta": -2
+    },
+    {
+      "Id": "EVT_0500",
+      "Title": "Coordinated enemy outpost",
+      "Description": "Event 500: The communications relay needs immediate support. Supplies are stretched thin.",
+      "Category": "Cyber",
+      "MoraleDelta": 3,
+      "SupplyDelta": -1,
+      "TerritoryDelta": -2
+    }
+  ]
+}

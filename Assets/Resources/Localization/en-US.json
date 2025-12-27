@@ -1,0 +1,14 @@
+{
+  "Entries": [
+    { "Key": "ui.title", "Value": "BIT WAR" },
+    { "Key": "ui.start", "Value": "Start Campaign" },
+    { "Key": "ui.options", "Value": "Options" },
+    { "Key": "ui.language", "Value": "Language" },
+    { "Key": "ui.exit", "Value": "Exit" },
+    { "Key": "hud.morale", "Value": "Morale" },
+    { "Key": "hud.supplies", "Value": "Supplies" },
+    { "Key": "hud.territory", "Value": "Territory" },
+    { "Key": "event.choice.accept", "Value": "Accept" },
+    { "Key": "event.choice.decline", "Value": "Decline" }
+  ]
+}
